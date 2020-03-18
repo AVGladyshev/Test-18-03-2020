@@ -1,0 +1,80 @@
+/*Малые девайсы */
+@media (max-width: 768px) {
+  .textSize { font-size: 12pt; }
+  
+}
+
+
+
+/*Стили отступы*/
+ul.mBottom{
+	margin-bottom: 0;
+}
+
+.pLeft{
+	padding-left: 5px
+}
+
+.imgPoz{
+	position: absolute;
+	z-index: 1;
+	
+}
+.typingSimulation{
+	background-image: url(../img/laptop-clipart-logo-iner.png);
+	height: 240px;
+	width: 420px;
+	margin: 10px 0px 0 50px;
+
+}
+.textSize{
+	font-size: 20pt;
+}
+
+.fb-icon{
+	height: 50px;
+	width: 50px;
+}
+
+#top {
+  bottom: 0px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  right: 0px;
+}
+
+.text_indent{
+text-indent: 20px; /* Отступ первой строки */
+}
+
+/*Анимация*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.imgBg{
+	position: absolute;
+	z-index: 0;
+	height: 28px;
+	width: 420px;
+	margin: 250px 0 0 50px;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+
+.imgBtn:hover{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
